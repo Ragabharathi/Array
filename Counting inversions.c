@@ -34,8 +34,11 @@ int getInvCount(int arr[], int n)
 
 int main()
 {
-    int arr[] = { 1, 20, 6, 4, 5 };
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n ;
+    scanf("%d",&n);
+    int arr[n],i;
+    for(i=0;i<n;i++)
+    scanf("%d",&arr[i]);
     printf(" Number of inversions are %d \n",
            getInvCount(arr, n));
     return 0;
