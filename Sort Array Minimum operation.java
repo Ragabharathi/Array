@@ -26,4 +26,6 @@ public class Main
   7
   10 6 2 3 7 1 2
   output 13
-  
+  4
+  2 4 1 3
+  output 6	  
